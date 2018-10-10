@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-image: url("../media/Background_tile.png");    
+}
+
+/*The main container for content*/
+div {
+    background-color: white;
+    border-radius: 15px;
+    width: 1100px;
+    height 500px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: auto;   
+}
+
+/*The Nav bar on top*/
+.topnav {
+    overflow: hidden;
+    background-color: #202020;
+}
+
+/*The buttons in the navbar*/
+.topnav a {
+    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 40px;
+    margin-left: 1.9em;    
+    margin-right: 1em;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*the button you hover over*/
+.topnav a:hover {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*shows what page you're currently on*/
+.topnav a#current{
+    border border-radius: 10px;
+    background-color: #696969;
+}
+
+
+/*Stylizing the header*/
+header {
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    margin: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*The information to the left*/
+aside {
+    background-color: white;
+    width: 30%;
+    float: left;
+    padding: 20px 0px 20px 20px;
+    height: 500px;
+    margin: 1em;
+    margin-right: 0em;
+    margin-top: 0em;
+}
+
+/*The main text*/
+article {
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    float: right;
+    padding: 6em 12px 12px 12px;
+    margin-right: 3em;
+    margin-top: 0em;
+    line-height: 1em;
+    overflow-y: scroll;
+}
+
+}
+/*Bottom of the container*/
+footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+/*the headers*/
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
