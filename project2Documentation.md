@@ -4,7 +4,8 @@
 
 This project was an issue for me, as my original plan of using a music finder was scraped late, seeing as I 
 couldn't seem to figure out a proper way to use it. I scraped it in favor of https://api.chucknorris.io/ which
-was simpler and easier for me to use. It was a bit of a time crunch at teh end but I think I managed well enough.
+was simpler and easier for me to use. It was a bit of a time crunch at the end but I think I managed well enough.
+While crude, i feel my Fact finder is a nice throwback to a simpler time.
 
 Going down the criteria:
 
