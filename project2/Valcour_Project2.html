@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Norris Fact Finder</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src=js/main.js></script>
+
+</head>
+<body>
+    <header></header>
+
+    <h1>Chuck Norris<br>Fact Finder</h1>
+
+    <div class="widgets">
+        Search Term:
+        <input id="searchterm" type="text" size="20" maxlength="20" autofocus value="cats" />
+
+        &nbsp; &nbsp; &nbsp; &nbsp; or &nbsp; &nbsp; &nbsp; &nbsp;
+        Choose a Subject!
+        <select id="category">
+            <option value="none" selected>none</option>
+            <option value="dev">dev</option>
+            <option value="movie">movie</option>
+            <option value="food">food</option>
+            <option value="celebrity">celebrity</option>
+            <option value="science">science</option>
+            <option value="sport">sport</option>
+            <option value="political">political</option>
+            <option value="religion">religion</option>
+            <option value="animal">animal</option>
+            <option value="history">history</option>
+            <option value="music">music</option>
+            <option value="travel">travel</option>
+            <option value="career">career</option>
+            <option value="money">money</option>
+            <option value="fashion">fashion</option>
+        </select>
+    </div>
+
+    <div class="widgets">
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <button type="button" id="searchingTerm" class="green">&spades;<br />Get Jokes by Term<br />&spades;</button>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <button type="button" id="searchingCategory" class="green">&spades;<br />Get a random Joke by Category<br />&spades;</button>
+    </div>
+
+    <div class="widgets">
+        Max # results:
+        <select id="limit">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <hr>
+
+    <h2>Results</h2>
+    <div id="content" style="text-align: center">
+        <p>Nothing Yet!</p>
+    </div>
+
+</body>
+</html>
